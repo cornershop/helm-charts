@@ -1,4 +1,4 @@
-FROM debian:10.4-slim
+FROM debian:buster-20210311-slim
 
 RUN apt-get update && \
         apt-get install --yes curl gnupg awscli
